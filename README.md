@@ -39,6 +39,8 @@ O projeto foi desenvolvido seguindo o padrâo de arquitetura **MVVM (Model-View-
 ## Esquemas e Protótipos da Aplicação 
 Numa etapa inicial do desenvolvimento, foram estabelecidos esquemas e protótipos conceituais da aplicação, com o objetivo de planear a disposição dos elementos gráficos e a interação do utilizador com o sistema.
 
+![Protótipos da Aplicação](docs/ad.png) 
+
 Estes protótipos serviram de base para a implementação final da interface gráfica
 
 ## Modelo de Dados
