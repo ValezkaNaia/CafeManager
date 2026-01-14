@@ -27,9 +27,7 @@ O projeto foi desenvolvido seguindo o padrâo de arquitetura **MVVM (Model-View-
     * **`ui/`**: Componentes de interface reutilizáveis (OrderSection, SelectionDialog, StatusRow, SelectedItemsArea) implementados com Jetpack Compose
     * **`repositories/`**: Abstração da fonte de dados, gerindo a comunicação com o **Firebase Firestore, Auth e DataStore**
     * **`utils/`**: Usado para gestão de ciclo de vida de áudio
-    * **`profile/`**: Gestão de perfil do utilizador
     * **`navigation/`**: Gestão de rotas e navegação (`Routes`)
-    * **`settings/`**: Responsável pela gestão das definições locais da aplicação
       
   - **`src/main/res/`**: Recursos da aplicação
     
