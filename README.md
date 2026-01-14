@@ -63,9 +63,11 @@ O modelo de dados utiliza uma `data class` para garantir a integridade dos itens
 data class GameItem(
     val id: Int,
     val name: String,
-    val type: ItemType, // DRINK ou DESSERT
-    val iconRes: Int    // Referência ao recurso visual
+    val type: ItemType,
+    @DrawableRes val iconRes: Int
 )
+
+enum class ItemType { DRINK, DESSERT }
 ```
 As pontuações são geridas pela classe `PlayerScore`, permitindo a criação de rankings futuros:
 ```kotlin
