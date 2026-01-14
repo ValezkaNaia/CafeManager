@@ -70,12 +70,10 @@ data class GameItem(
 As pontuações são geridas pela classe `PlayerScore`, permitindo a criação de rankings futuros:
 ```kotlin
 data class PlayerScore(
-    var docId: String = "",
-    val userId: String = "",
-    val username: String = "",
-    val score: Int = 0,
-    val level: Int = 0,
-    val timestamp: Long = System.currentTimeMillis()
+    var docId: String? = null,   // ID do documento no Firestore
+    var userId: String? = null,  // UID do utilizador
+    var playerName: String? = null, // Nome do jogador
+    var score: Int = 0,          // Valor do score
 )
 ```
 
